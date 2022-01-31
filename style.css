@@ -1,0 +1,86 @@
+/* CSS for my bio document
+*/
+
+body {
+    padding: 0;
+
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size:16px;
+    line-height: 150%;
+    color: #eee;
+
+    background: #353537;
+}
+
+header {
+    background: #1D1D1D;
+}
+
+h1 {
+    /* box */
+    padding: 20px 0;
+
+    /* postion */
+    margin: 0;
+    font-size: 28px;
+
+    /* text */
+    color: #eee;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    color:#aaa;
+}
+
+.footer {
+    /* make footer full width and position at the bottom of the browser window */
+    width:98%;
+    position:fixed;
+    bottom:0;
+    margin: 10px auto;
+
+    /* set the background color to match header */
+    background: #1D1D1D;
+
+    /* padding inside the box */
+    padding-right:40px;
+
+    /* set font size, color, and position */
+    font-size:12px;
+    color: #666;
+    text-align: right;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image,
+#bottom {
+    float:left;
+}
+
+#main-bio {
+    width:70%;
+}
+
+#contact-info {
+    width:30%;
+}
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+
+    margin-right: 20px;
+}
